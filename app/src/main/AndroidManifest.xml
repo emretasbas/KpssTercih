@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.envy_m6.kpsstercih" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".IlceDetay" >
+            <intent-filter>
+                <action android:name="android.intent.action.ILCEDETAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".IlceEkle" >
+            <intent-filter>
+                <action android:name="android.intent.action.ILCEEKLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".IlceListele" >
+            <intent-filter>
+                <action android:name="android.intent.action.ILCELISTELE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".IlceListele2" >
+            <intent-filter>
+                <action android:name="android.intent.action.ILCELISTELE2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".OkulDetay" >
+            <intent-filter>
+                <action android:name="android.intent.action.OKULDETAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".OkulEkle" >
+            <intent-filter>
+                <action android:name="android.intent.action.OKULEKLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".OkulListele" >
+            <intent-filter>
+                <action android:name="android.intent.action.OKULLISTELE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".OkulListele2" >
+            <intent-filter>
+                <action android:name="android.intent.action.OKULLISTELE2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SehirDetay" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEHIRDETAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SehirEkle" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEHIREKLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".SehirListele" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEHIRLISTELE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".OkulEkle2" >
+            <intent-filter>
+                <action android:name="android.intent.action.OKULEKLE2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".OkulListele3" >
+            <intent-filter>
+                <action android:name="android.intent.action.OKULLISTELE3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
